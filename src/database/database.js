@@ -1,6 +1,6 @@
 import { MongoClient } from 'mongodb';
 
-const DB_NAME = '<<write your DB name here>>';
+const DB_NAME = 'menu-planner-db';
 
 export const db = {
     _dbClient: null,
